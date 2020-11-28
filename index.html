@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackademy</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.4/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="contenedor">
+            <h1 class="title">Bienvenido al registro de kilometros.</h1>
+            <h3 class="subtitle">Ingrese los datos.</h3>
+
+            <input type="text" placeholder="Nombre" id="name" required/>
+            <input type="email" placeholder="Correo" id="email" required/>
+            <input type="number" placeholder="Kilometros" id="kilometers" required/>
+
+            <input type="button" value="Registrar" id="send" />
+
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.4/dist/sweetalert2.all.min.js"></script>
+
+
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            GestorMain.Inicio();
+        });
+    </script>
+</body>
+
+</html>
