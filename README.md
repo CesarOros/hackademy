@@ -17,4 +17,7 @@ La aplicación tambien requiere el uso de una libreria de mysql, esta puede ser 
 
 $ pip install pymysql
 
+En cuestión de la base de datos cree una base local con wamp server llamada hackademy y dentro de ella una tabla con los siguientes campos: id(auto_increment), nombre(texto), correo(texto), kilometros(float), fecha_inserción(date).
+
 En cuestion de la parte del front end es HTML5 y CSS. La funcionalidad se le dió con JQuery para que se le pudieran enviar los datos al endpoint.
+Para probar la aplicación solo se tendría que abrir el archivo index.html y listo. (no olvides de abrir tu servidor en donde está alojada la base de datos, en mi caso fue en wamp server, y el endpoint)
